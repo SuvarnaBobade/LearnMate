@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>BSC Second Page</title>
+    <style>
+        body {
+            background-color: rgb(8, 8, 8);
+            margin: 0;
+            padding: 0;
+        }
+
+        .Login {
+            background-image: url('backgroungforcourses.jpg');
+            background-size: cover; 
+            background-position: center; 
+            text-align: center;
+            height: 800px;
+            margin: 0 100px;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loginpage {
+            background-color: rgba(255, 255, 255, 0.8); 
+            text-align: center;
+            padding: 50px;
+            font-size: 30px;
+            width: 400px;
+            border-radius: 10px; 
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: rgb(6, 69, 94);
+            color: white;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: rgb(4, 54, 73);
+        }
+    </style>
+</head>
+<body>
+    <form class="Login">
+        <div class="loginpage">
+            <button type="button" onclick="window.location.href='AboutBCScoueses.html'">About courses</button>
+            <button type="button" onclick="window.location.href='bscStudentProfile.html'">Student Profile</button>
+            <button type="button" onclick="window.location.href='index.html'">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>

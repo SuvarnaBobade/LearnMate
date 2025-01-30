@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+</html><title>LoginPge</title>
+    <style>
+        .Login{
+            background-color: lightblue;
+            text-align: center;
+           height: 800px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 50px;
+
+            
+
+        }
+        .loginpage{
+            background-color: white;
+            text-align: center;
+            height: 500px;
+            width: 500px;
+            border-radius: 0px;
+            margin-top:50px;
+            margin-bottom: 100px;
+            margin-left: 400px;
+            margin-right: 200px;
+            font-size: 50px;
+            padding-top: 0px;
+
+        }
+        .buttonfields{
+            font-size: 15px;
+            height: 40px;
+            width:80px;
+            border-radius: 10px;
+            background-color: rgb(6, 69, 94);
+            color: white;
+        }
+        .fontsizeforfiels{
+            font-size: 15px;
+        }
+        .buttonstyle{
+            font-size: 15px;
+        }
+        .inputfiels{
+            font-size: 20px;
+            height: 30px;
+            width: 250px;
+            background-color: rgb(227, 242, 237);
+            
+        }
+      body{
+        background-color: rgb(8, 8, 8);
+      }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: rgb(6, 69, 94);
+            color: white;
+
+       } 
+            
+
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body > 
+<form  action="loginp" method="post" class="Login">
+        <div class =loginpage>
+            <h4 id="loginstyle"> Login </h4>
+            <input type="text" name="email" class="inputfiels" placeholder="please Enter email">
+            <br>
+            <input type="password" name="password"  class="inputfiels"  placeholder="Please enter Password">
+            <br>
+            <div  class="buttonstyle">
+              <input type="checkbox" name="Show Password"  value="Show Password"  >Show Password
+            </div>
+                <button>Signin</button>
+            
+            <br>
+            <div class="fontsizeforfiels">
+                Forgot<a href="ForgotPass.html"> UserName/Password ?</a><br> 
+                 <br>
+                 Don't Have an Account<a href="Registration.html">Sign Up</a>
+            </div>
+        </div>
+        
+        
+
+       
+    </form>
+</body>
+</html>

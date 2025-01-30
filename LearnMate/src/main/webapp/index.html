@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<style>
+body {
+	background-color: hsl(220, 27%, 96%);
+}
+
+.bar {
+	height: 80px;
+	width: 100%;
+	background-color: rgb(5, 17, 26);
+	color: white; /* Change the color to white */
+	font-size: 22px;
+	text-align: center;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.bar img {
+	height: 60px;
+	width: 60px;
+	margin-left: 20px;
+}
+
+.bar a {
+	color: white; /* Change the color to white */
+	text-decoration: none;
+	margin: 0 20px;
+	font-size: 20px;
+}
+
+.bar a:hover {
+	color: yellow; /* Change hover color to yellow */
+	text-decoration: underline;
+}
+
+.scrolldesign {
+	height: 50px;
+	font-size: 32px;
+	background-color: rgb(97, 180, 203);
+	color: black;
+	justify-content: center;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(97, 180, 203);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(5, 17, 26);
+    color: yellow; 
+}
+
+</style>
+</head>
+<body>
+	<form class="homedesign">
+		<div class="scrolldesign">
+			<marquee behavior="Scroll" direction="left" scrollamount="5">
+				<b>Welcome to a World of Knowledge!</b>
+			</marquee>
+		</div>
+
+		<div class="bar">
+			<img src="logo.jpg" alt="Logo">
+			<div>
+				<a href="index.html">Home</a> 
+				<a href="aboutcollege.html">About</a>
+				<a href="LoginPge.html">SignIn</a>
+				<a href="Registration.html">Register</a>
+				<div class="dropdown">
+					<a href="#">Courses</a>
+					<div class="dropdown-content">
+					   <a href="BscSecondPage.html">BCS</a>
+					   <a href="McsSecondPage.html">MCS</a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<img src="bg.2.jpg" alt="description_of_image" height="500px" width="1500px" />
+		</div>
+	</form>
+</body>
+</html>

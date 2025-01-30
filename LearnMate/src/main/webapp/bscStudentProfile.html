@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: rgb(8, 8, 8);
+        }
+
+        .Login {
+            background-color: lightblue;
+            text-align: center;
+            height: 800px;
+            margin: 0 100px;
+            padding: 50px;
+        }
+
+        .loginpage {
+            background-color: white;
+            text-align: center;
+            height: 500px;
+            width: 500px;
+            margin: 50px auto;
+            font-size: 50px;
+            padding-top: 0;
+        }
+
+        .inputfields {
+            font-size: 20px;
+            height: 30px;
+            width: 250px;
+            background-color: rgb(227, 242, 237);
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: rgb(6, 69, 94);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="BcsPage" method="post" class="Login">
+        <div class="loginpage">
+            <h4>Student Information</h4>
+            <input type="text" name="fname" class="inputfields" placeholder="Please Enter your firstname">
+            <br>
+            <input type="text" name="degree" class="inputfields" placeholder="Please Enter your degree">
+            <br>
+            <button type="submit">Submit</button>
+            <button type="button" onclick="window.location.href='index.html'">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>
